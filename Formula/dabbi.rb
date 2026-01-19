@@ -4,28 +4,28 @@
 class Dabbi < Formula
   desc "Isolated Linux environments for AI coding agents"
   homepage "https://github.com/mjshashank/dabbi"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/mjshashank/dabbi/releases/download/v#{version}/dabbi-darwin-arm64.tar.gz"
-      sha256 "4053585e034e12d95ae97fa09e79f83f83e763f779575d8bcb332c911e4f0368"
+      sha256 "2f63be6351b227993ee09d1c828ef58d3d5b4424a69eaa171baad72142f8e922"
     end
     on_intel do
       url "https://github.com/mjshashank/dabbi/releases/download/v#{version}/dabbi-darwin-amd64.tar.gz"
-      sha256 "c74fc2cecb8e1da8a0d75f13ac8cd192c54e15c8a6ed7a699544ccfa20a1964b"
+      sha256 "cc2854f2204883fde9bb29c24061f47d903a30e8f0085ebe8cc438830a9950d7"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/mjshashank/dabbi/releases/download/v#{version}/dabbi-linux-arm64.tar.gz"
-      sha256 "3a57e9553e79fd98d332adcb5bb55d888341ee646ab93a732fd997659dc5ae5c"
+      sha256 "d2cfa1748e9bb66babc90b40ecaca5261006e905fa538b65bf9c5791e9a8a821"
     end
     on_intel do
       url "https://github.com/mjshashank/dabbi/releases/download/v#{version}/dabbi-linux-amd64.tar.gz"
-      sha256 "d2385a45aeb0e52466660d1c68c2ce31a9671be06180711f3e26402f03b19db2"
+      sha256 "1721c67a9b42cb86d91fe6e5011a9aa0e6a07a6346f1ff6499dbacec863f410e"
     end
   end
 
